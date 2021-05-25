@@ -11,7 +11,6 @@ pip install requests
 
 Commands
 python chatbot.py server, port, bot_username, access_token, channel_name, app_client_id, app_client_secret
-python chatbot.py irc.chat.twitch.tv 6667 sivygames oauth:wbhdr3s2p7yx4iqr768gf0zezseees #sivygames ckl9ldbxaagizxfxdtgalaihot3qjj 5wb8e4qyxbqy9rz9sba8vqqalcoztt
 """
 
 import irc.bot
@@ -22,11 +21,11 @@ from irc.bot import SingleServerIRCBot
 
 server = 'irc.chat.twitch.tv'
 port = 6667
-bot_username = 'sivygames'
-access_token = 'oauth:wbhdr3s2p7yx4iqr768gf0zezseees'
-channel_name = '#sivygames'
-app_client_id = 'ckl9ldbxaagizxfxdtgalaihot3qjj'
-app_client_secret = '5wb8e4qyxbqy9rz9sba8vqqalcoztt'
+bot_username = 'x'
+access_token = 'oauth:x'
+channel_name = '#x'
+app_client_id = 'x'
+app_client_secret = 'x'
 
 class TwitchBot(SingleServerIRCBot):
     def __init__(self, server, port, bot_username, access_token, channel_name, app_client_id, app_client_secret):
